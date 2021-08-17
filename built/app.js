@@ -175,6 +175,8 @@ function endLoadingAnimation() {
     deathsList.removeChild(deathSpinner);
     recoveredList.removeChild(recoveredSpinner);
 }
+// error!! ts2750
+// 라이브러리에 lib 추가
 function setupData() {
     return __awaiter(this, void 0, void 0, function () {
         var data;
